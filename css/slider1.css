@@ -274,7 +274,9 @@
 /* Second Slide */
 .demo-1 .bg-2 .sl-slide-inner,
 .demo-1 .bg-2 .sl-content-slice {
-	background: #000;
+	background-image:url(../img/slide_2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .demo-1 .bg-2 [data-icon]:after,
@@ -289,7 +291,9 @@
 /* Third Slide */
 .demo-1 .bg-3 .sl-slide-inner,
 .demo-1 .bg-3 .sl-content-slice {
-	background: #db84ad;
+	background-image:url(../img/slide_3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .demo-1 .bg-3 .deco {
