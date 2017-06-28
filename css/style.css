@@ -653,7 +653,15 @@ header {
 }
 
 	
-.picture img {width: 100%; height: auto; border: 1px solid #f6f6f6}
+.picture .img {
+    position: relative;
+    float: left;
+    width:  100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
 
 .image-overlay-link,
 .image-overlay-zoom {
